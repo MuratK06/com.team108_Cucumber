@@ -50,14 +50,13 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
 
-
-
-
             }
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
+
         }
+
 
 
 
@@ -90,3 +89,5 @@ public class Driver {
 //                    options.addArguments("--remote-allow-origins=*");
 //                    driver = new ChromeDriver(options);
 //                    break;
+
+
