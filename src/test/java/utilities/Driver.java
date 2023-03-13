@@ -46,15 +46,20 @@ public class Driver {
                     driver= new SafariDriver();
                     break;
                 default:
+                    System.setProperty("webdriver.http.factory", "jdk-http-client");
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
 
+
+
+
             }
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         }
 
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+
 
         return driver;
 
@@ -78,3 +83,10 @@ public class Driver {
 
     }
 }
+
+
+// WebDriverManager.chromedriver().setup();
+//                    ChromeOptions options=new ChromeOptions();
+//                    options.addArguments("--remote-allow-origins=*");
+//                    driver = new ChromeDriver(options);
+//                    break;
