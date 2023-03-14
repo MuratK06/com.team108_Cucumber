@@ -1,3 +1,4 @@
+@regression @pr2
 Feature: US1007 automationRun sayfasinda test yapar
 
   Scenario: 01 autamation sayfasinda test

@@ -1,3 +1,4 @@
+@regression @pr2
 Feature: US1010 WebUniversity Testi
 
 

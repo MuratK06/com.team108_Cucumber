@@ -1,6 +1,7 @@
+@regression
 Feature: US1005 Kullanici amazonda urun aratip 2.urun detaylarini test eder
 
-
+@ss
   Scenario: TC09 Kullanici arama sonuclarinda istedigi urunu test edebilmeli
 
     Given kullanici "amazonUrl" anasayfaya gider
@@ -8,7 +9,8 @@ Feature: US1005 Kullanici amazonda urun aratip 2.urun detaylarini test eder
     And 5 saniye bekler
     And 3.urune gider
     Then urun isminin "Nutella" icerdigini test eder
-    And sayfayi kapatir
+
+
 
 
 

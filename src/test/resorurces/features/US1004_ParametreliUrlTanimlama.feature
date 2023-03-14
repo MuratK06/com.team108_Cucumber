@@ -1,3 +1,4 @@
+@regression @pr1
 Feature: US1004 kullanici parametre olarak girdigi Url e gider
 
   Scenario: TC8 Kullanici url'i parametre olarak girebilmeli

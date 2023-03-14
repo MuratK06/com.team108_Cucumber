@@ -1,3 +1,4 @@
+@regression
 Feature: Kullanici amazonda urun aratir
 
   Scenario: Scenario: kullanici arama sonuclari
