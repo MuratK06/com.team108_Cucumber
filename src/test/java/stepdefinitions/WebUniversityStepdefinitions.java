@@ -65,6 +65,6 @@ public class WebUniversityStepdefinitions {
     @And("tum sayfalari kapatir")
     public void tumSayfalariKapatir() {
 
-        Driver.quitDriver();
+
     }
 }

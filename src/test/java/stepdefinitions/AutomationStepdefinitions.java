@@ -2,7 +2,6 @@ package stepdefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import pages.AutomationPage;
 import utilities.ConfigReader;
 import utilities.Driver;
@@ -11,7 +10,7 @@ import utilities.ResuableMethods;
 public class AutomationStepdefinitions {
 
    AutomationPage automationPage=new AutomationPage();
-   public ResuableMethods resuableMethods;
+    public ResuableMethods resuableMethods;
 
    @Given("kullanici automationexercise sayfasina gider")
     public void kullanici_automationexercise_sayfasina_gider() {
