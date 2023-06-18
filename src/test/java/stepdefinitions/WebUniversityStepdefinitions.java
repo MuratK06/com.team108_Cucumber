@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.WebUniversityPage;
@@ -65,6 +66,8 @@ public class WebUniversityStepdefinitions {
     @And("tum sayfalari kapatir")
     public void tumSayfalariKapatir() {
 
-
     }
+
+
+
 }

@@ -16,7 +16,7 @@ public class AmazonPage {
         bu class'a tanitmamiz gerekiyor
         bunun icin her pages sayfasi ilk olusturuldugunda
         basina parametresiz bir constructor olusturup
-        icerisinde driver'i bu class'a tanitiyoruz.
+        icerisinde driver'i bu class'a tanitiyoruz....
      */
 
     public AmazonPage(){
